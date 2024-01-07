@@ -20,13 +20,10 @@ npm install month-name-abbreviator
 ## 🔥 How to use
 
 ```js
-const calculateFutureValue = require("future-value-calculator");
+import getAbbreviatedMonthName from "month-name-abbreviator";
 
-// Example usage
-const getAbbreviatedMonthName = require("your-package-name");
-
-const monthNumber = 3;
-const abbreviatedMonth = getAbbreviatedMonthName(monthNumber);
+const monthNumber: number = 3;
+const abbreviatedMonth: string = getAbbreviatedMonthName(monthNumber);
 console.log(abbreviatedMonth); // Output: "Mar"
 ```
 
