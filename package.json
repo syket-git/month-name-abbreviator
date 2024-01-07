@@ -1,0 +1,22 @@
+{
+  "name": "month-name-abbreviator",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Syket Bhattachergee <syketweb@gmail.com> (https://syketb.vercel.app/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syket-git/month-name-abbreviator"
+  },
+  "keywords": [
+    "month-name",
+    "months",
+    "month-name-abbreviator"
+  ],
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
